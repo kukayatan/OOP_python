@@ -12,12 +12,12 @@ while True:
         choice = int(input("Input what index you want to measure:"))
         if choice == 1:
             ask_for_bmi()
-            repeat = str(input("Do you want to repeat ?"))
+            repeat = str(input("Do you want to repeat ? (y/n)"))
         elif choice == 2:
             ask_for_whr()
-            repeat = str(input("Do you want to repeat ?"))
+            repeat = str(input("Do you want to repeat (y/n)?"))
         else:
-            repeat = str(input("You put in wrong number. Do you want to repeat ?"))
+            repeat = str(input("You put in wrong number. Do you want to repeat ? (y/n)"))
     except:
         print("You did not put in correct answer !!")
     else:
