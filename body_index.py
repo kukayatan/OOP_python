@@ -42,7 +42,8 @@ class Calculation:
                 return str("{} : Moderate risk \nYour Waist-to-Hip Ratio index is {} points".format(ws,whr_res))
             else:
                 return str("{} : High risk \nYour Waist-to-Hip Ratio index is {} points".format(ws,whr_res))
-        else: pass
+        else: 
+            print("Incorrect input !")
 
 # call function to ask for input that is needed for bmi calculations 
 
