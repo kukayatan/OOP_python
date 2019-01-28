@@ -1,6 +1,6 @@
 
 
-# methods of index bmi and whr calculations 
+# methods for bmi and whr index calculations 
 
 class Calculation:
     
@@ -45,7 +45,7 @@ class Calculation:
         else: 
             print("Incorrect input !")
 
-# call function to ask for input that is needed for bmi calculations 
+# call function for bmi calculation inputs
 
 def ask_for_bmi():
     
@@ -64,7 +64,7 @@ def ask_for_bmi():
 
 
 
-# call function to ask for input that is needed for whr calculations 
+# call function to ask for whr calculation inputs
             
 def ask_for_whr():
     
